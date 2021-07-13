@@ -9,7 +9,7 @@ from datetime import datetime
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
-plt.style.use('science')
+plt.style.use('seaborn-muted')
 st.set_page_config(layout='wide')
 
 @st.cache(allow_output_mutation=True)
