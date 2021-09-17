@@ -2,7 +2,7 @@
 
 House Rocket é uma plataforma digital que tem como modelo de negócio a compra e venda de imóveis usando tecnologia. Sua principal estratégia é comprar boas casas em ótimas localizações com preços baixos e depois revendê-las posteriormente à preços mais altos. Quanto maior a diferença entre a compra e a venda, maior o lucro da empresa e portanto maior sua receita. Entretanto, as casas possuem muitos atributos que as tornam mais ou menos atrativas aos compradores e vendedores e a localização e o período do ano também podem influenciar os preços.
 
-**OBS:Esse é um projetoi fictício.**
+**OBS:Esse é um projeto fictício.**
 
 ## Questão de negócio
 
@@ -14,7 +14,7 @@ Diante desse contexto, busca-se responder as seguintes questões:
 
 ## Atributos 
 
-Os dados para desenvolver esse projeto de insights foram retirados do Kaggle¹. Em suma, esse dataset é formado por linhas e colunas, onde cada coluna é um atributo e seu significado está explicado na tabela abaixo.
+Os dados para desenvolver esse projeto de insights foram retirados do Kaggle¹. Em suma, esse dataset é formado por linhas e colunas, onde cada coluna é um atributo e seu significado está explicado no link abaixo.
 
 ¹ https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885
 
@@ -22,9 +22,9 @@ Os dados para desenvolver esse projeto de insights foram retirados do Kaggle¹. 
 
 Algumas premissas foram levantadas com uma rápida visualização geral dos dados:
 
-  - a coluna yr_renovated com valores igual a zero, significa que as casas nunca foram reformadas
+ - a coluna yr_renovated com valores igual a zero, significa que as casas nunca foram reformadas
 
-  - as casas com waterfront igual a zero, quer dizer que não possuem vista para água.
+ - as casas com waterfront igual a zero, quer dizer que não possuem vista para água.
 
   - as colunas de floors e bathrooms possuem números fracionários, isso não tem sentido físico, deveriávamos perguntar o que isso significa em termos imobiliários.
 
@@ -32,7 +32,7 @@ Algumas premissas foram levantadas com uma rápida visualização geral dos dado
 
 ## Planejamento da Solução
 
-O planejamento da solução segui-se da maneira abaixo, vale salientar que as ferramentas utilizadas foram o Python 3.8, Jupyter Notebook, Jupyter Lab, Sublime Text, Streamlit e Heroku. Todas as bibliotecas necessárias para esse projeto estão no requiments.txt
+O planejamento da solução segui-se da maneira abaixo, vale salientar que as ferramentas utilizadas foram o Python 3.8, Jupyter Notebook, Sublime Text, Streamlit e Heroku. Todas as bibliotecas necessárias para esse projeto estão no arquivo requiments.txt
 
   - Coleta dos dados: Kaggle
 
