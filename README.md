@@ -22,9 +22,9 @@ Os dados para desenvolver esse projeto de insights foram retirados do Kaggle¹. 
 
 Algumas premissas foram levantadas com uma rápida visualização geral dos dados:
 
- - a coluna yr_renovated com valores igual a zero, significa que as casas nunca foram reformadas
+  - a coluna yr_renovated com valores igual a zero, significa que as casas nunca foram reformadas
 
- - as casas com waterfront igual a zero, quer dizer que não possuem vista para água.
+  - as casas com waterfront igual a zero, quer dizer que não possuem vista para água.
 
   - as colunas de floors e bathrooms possuem números fracionários, isso não tem sentido físico, deveriávamos perguntar o que isso significa em termos imobiliários.
 
@@ -70,7 +70,7 @@ Apenas as hipóteses H2 e H5 foram verdadeiras. Com a visualização dos dados p
 
 Nessa etapa traduzimos o que as hipóteses dizem para a linguagem de negócio:
 
-    H1 = O preço dos imóveis crescem 10% MoM na média: FALSA. Os preços dos imóveis sofrem uma flutuação natural com o decorrer dos meses. Deve-se analisar mais profundamente quais fatos locais impactaram nesses preços históricos.
+	H1 = O preço dos imóveis crescem 10% MoM na média: FALSA. Os preços dos imóveis sofrem uma flutuação natural com o decorrer dos meses. Deve-se analisar mais profundamente quais fatos locais impactaram nesses preços históricos.
     
     H2 = Imóveis nunca reformados são 15% mais baratos na média: VERDADEIRA. Deve-se investir em imóveis nunca reformados com vista para água, assim conseguimos colocar uma maior porcentagem de lucro em cima do preço de venda.
     
